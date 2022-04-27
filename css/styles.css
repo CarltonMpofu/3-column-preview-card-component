@@ -1,0 +1,164 @@
+:root
+{
+    --brightOrange: hsl(31, 77%, 52%);
+    --darkCyan: hsl(184, 100%, 22%);
+    --veryDarkCyan: hsl(179, 100%, 13%);
+    --transparentWhite: hsla(0, 0%, 100%, 0.75);
+    --veryLightGray: hsl(0, 0%, 95%); 
+}
+/*
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+body
+{
+    font-size: 15px;
+    background-color: var(--veryLightGray);
+}
+
+h1
+{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: var(--veryLightGray);
+    margin: 30px 0;
+}
+
+p
+{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: var(--transparentWhite);
+    margin: 0;
+    line-height: 1.6;
+}
+
+button
+{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    background-color: var(--veryLightGray);
+    margin-top: 70px;
+    padding: 13px 35px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--veryLightGray);
+}
+
+.flex-child button:hover
+{
+    color: var(--veryLightGray);
+    background-color: pink;
+}
+
+.flex-container
+{
+    display: flex;
+    max-width: 67%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.flex-child
+{
+    padding: 5%;
+}
+
+.sedans
+{
+    background-color: var(--brightOrange);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.sedans button
+{
+    color: var(--brightOrange);
+}
+
+.sedans button:hover
+{
+    background-color: var(--brightOrange);
+}
+
+.suvs
+{
+    background-color: var(--darkCyan);
+}
+
+.suvs button
+{
+    color: var(--darkCyan);
+}
+
+.suvs button:hover
+{
+    background-color: var(--darkCyan);
+}
+
+.luxury
+{
+    background-color: var(--veryDarkCyan);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.luxury button
+{
+    color: var(--veryDarkCyan);
+}
+
+.luxury button:hover
+{
+    background-color: var(--veryDarkCyan);
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+@media only screen and (max-width:950px) { 
+    .flex-container
+    {
+        max-width: 95%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    .flex-container
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        max-width: 95%;
+    }
+
+    .flex-child
+    {
+        padding: 0;
+        padding: 15%;
+    }
+
+    button 
+    {
+        margin-top: 25px;
+    }
+
+    .sedans
+    {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .luxury
+    {
+        border-radius: 0 0 10px 10px;
+    }
+
+}
