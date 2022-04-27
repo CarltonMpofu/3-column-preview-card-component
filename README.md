@@ -24,13 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](screenshots/screenshot1.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Link to solution](https://www.frontendmentor.io/solutions/responsive-3column-preview-card-component-html-css-flexbox-Hy9wdJvS9)
+- Live Site URL: [Link to live site](https://carltonmpofu.github.io/3-column-preview-card-component/)
 
 ## My process
 
@@ -42,5 +42,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@CarltonMpofu](https://www.frontendmentor.io/profile/CarltonMpofu)
 
